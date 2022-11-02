@@ -179,4 +179,147 @@ text-align: center;
   .slide-content h1 {
     font-size: 3rem;
   }
+  
+}
+.open-nav-items {
+  display: block !important;
+}
+
+.close-nav-items {
+  display: none !important;
+}
+
+.nav-items {
+  position: absolute;
+  bottom: 44px;
+  z-index: 7;
+  transition: all .4s ease;
+  display: none;
+  
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px;
+  border-radius: 80%;
+  
+  background-color: #0a337e;
+  
+  text-transform: uppercase;
+}
+.item1{
+  background-color: #3080ca;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px;
+  border-radius: 80%;
+  
+}
+.item2{
+ background-color: #1f8b10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px;
+  border-radius: 80%;
+  
+}
+.likn{
+  color: #fff;
+  font-size: 17px;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.fa-times {
+  display: none;
+}
+
+.our-activities {
+  padding: 50px 0;
+}
+
+.our-activities h2 {
+  text-align: center;
+}
+
+.our-activities-divider {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.our-activities p {
+  text-align: center;
+}
+
+.our_activities_card_parent {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.our_activities_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: #F0F1F1;
+  color: grey;
+  transition: .5s ease;
+}
+
+.our_activities_card:hover {
+  background-color: hsl(101, 96%, 44%);
+  color: white !important;
+}
+
+.our_activities_card .fa-user {
+  font-size: 3rem;
+}
+
+.our_activities_card h4 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  /* color: rgb(39, 39, 39); */
+}
+
+@media (min-width: 768px){
+  .our_activities_card {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1440px){
+  .our_activities_card {
+    width: 40%;
+  }
+  .logo{
+    display: flex;
+  }
+  .nav-items{
+    position: absolute;
+    width: 100%;
+    top: -20px;
+    left: 700px;
+    display: flex;
+    flex-direction: row;
+    
+    background-color: unset;
+  }
+  
+  
 }

@@ -6,47 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="see.jpg" type="image/x-icon">
     <title>Events</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="homePage.css">
     <link rel="stylesheet" href="cmca.css">
+    <link rel="stylesheet" href="foot.css">
+    <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet"/>
 </head>
 <body style="background-color:#ccc ;">
-    <nav class="meno m3">
-        <div class="logo" style="overflow: auto;">
-            <img src="see.jpg" height="70px" width="70px" style="border-radius: 50%; float: left;">&nbsp;&nbsp;
-         <h1 class="you" style="position: relative; top: 0.1em; left: 0em; display: inline; font-weight: 700; font-size: 45px;">CMCA</h1> 
-        </div>
-        <input type="checkbox" id="click">
-        <label for="click" class="menu-btn">
-            <i style="color: white; font-size: 50px;" class="fa fa-bars"></i>
-        </label>    
-        <ul>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="event.html">Events</a></li>
-            <li><a href="#">Messages</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <div class="social" style="float: left; display: flex; justify-content: left; align-items: center; text-align: center;">
-              <i style="color: rgb(250, 251, 252); font-size: 20px; padding-left: 100px; cursor: pointer; "  class="fa fa-facebook"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-              <i style="color: rgb(248, 248, 250); font-size: 20px; padding-right: 0px; cursor: pointer;" class="fa fa-twitter"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-             <a href="mailto:christonmountcarmel@gmail.com"><i style="color: rgb(248, 247, 247); font-size: 20px; padding-right: 0px; cursor: pointer;" class="fa fa-send"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
-               </div>
+  <section class="navigation">
+    <div class="nav-container">
+      <div class="brand">
+        <img class="cmcaimg" src="see.jpg" height="70px" width="70px" style="border-radius: 50%; float: left;">&nbsp;&nbsp;
+      </div>
+      <nav>
+        <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
+        <ul class="nav-list">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="event.html">Events</a>
+           
+          </li>
+          <li>
+            <a href="#!">Message</a>
+          </li>
+         
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
         </ul>
-    </nav>
+      </nav>
+    </div>
+  </section>
     <h2 class="eventxt">----EVENTS----</h2><br>
     <p style="font-size:18px ; text-align: center;">Watch our events and stay blessed to every messages</p><br><br>
    <div class="evenpic">
-      <h2 style="font-size: 50px;">3 Days Crusade</h2><br>
-      <h3 id="theme" style="font-size:30px ;">THEME: THE LOVE OF GOD IN ABA-NLA</h3><br>
-      <h4 style="font-size:20px ;">DATE: 7th-9th OCTOBER, 2022</h4><br>
-      <a href="contact.html"><button class="btn">Connect</button></a>
+      <h2 class="crus">3 Days Crusade</h2><br>
+      <h3 class="crus1" id="theme" ><b>THEME:</b> THE LOVE OF GOD IN ABA-NLA</h3><br>
+      <h4 class="crus2" >DATE: 7th-9th OCTOBER, 2022</h4><br>
+      <!-- <a href="contact.html"><button class="btn">Connect</button></a> -->
    </div>
   
    <section class="countdown">
      <div class="intro">
-      <h1> EVENT COUNTDOWN</h1>
+      <h1 class="evennt"> EVENT COUNTDOWN</h1>
     </div><br>
     <div class="countdown-container">
       <div class="content">
@@ -68,43 +79,104 @@
     </div>
    
   </section>
+  <footer>
+    <div>
+        <span class="logo">CMCA</span>
+       </div>
 
-   <footer class="footsect">
-    <div class="footsect1">
-      <div class="overall">
-      <img src="see.jpg" height="70px" width="70px" style="border-radius: 50%; ">&nbsp;&nbsp;
-      <a class="link" href="about.html">About</a><br>
-      <a class="link" href="#">Events</a><br>
-      <a class="link" href="#">Messages</a><br>
-      <a class="link" href="contact.html">Contact</a>
-        </div><br><br><br><br>
-        <div class="tixt">
-          <h4>Follow us</h4><br><br>
-          <i style="cursor:pointer ;" class="fa fa-facebook"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <i style="cursor:pointer ;" class="fa fa-twitter"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <i style="cursor:pointer ;" class="fa fa-send"></i>
-        </div><br><br>
-        <i style=" color: #ccc; margin-left: 20px; font-weight: 900; font-size: 30px;" class="fa fa-map-marker"></i>&nbsp;&nbsp;
-        <p style="display:inline ;">Zone A, House 6, 2nd Transformer, Aba-nla Ologuneru, Ibadan.</p><br><br><br>
-      <h4 style="padding: 15px; font-weight: 100; color: rgb(199, 199, 199);" >Privacy Policy</h4>
-        <h5 style="padding: 15px; font-weight: 100; color: rgb(199, 199, 199);">© Copyright 2022. Christ On Mount Carmel Assembly.</h5>
-    </div>
-    <div class="footsect2">
-        <p style="font-weight: 600;margin-bottom: -20px;">Stay up to date</p>
-        <p style="font-weight: 600;">Subscribe to our youtube channel to<br> receive our latest news and <br> releases.</p>
-        <input type="email" id="email" placeholder="Enter your e-mail">
-        <button>Subscribe</button>
-        <p><i style="font-size:20px;" class="fa fa-whatsapp"></i> &nbsp;Chat us up</p>
-        <p><i style="font-size:20px;" class="fa fa-instagram"></i>&nbsp;Peek into our gallery</p>
-    </div>
-   
+   <div class="row">
+     <div class="col-3">                
+             <div class="link-cat" onclick="footerToggle(this)">
+                <span class="footer-toggle"></span>
+                <span class="footer-cat">Activity</span>
+            </div>
+            <ul class="footer-cat-links">
+              <li><a href=""><span>There are lot of activities here in</span></a></li>
+                      <li><a href=""><span>Christ on mount carmel assembly.</span></a></li>
+                      <li><a href=""><span>You can check the event section to join...</span></a></li>
+                     </ul>
+        </div>
+        <div class="col-3">
+            <div class="link-cat" onclick="footerToggle(this)">
+                <span class="footer-toggle"></span>
+                <span class="footer-cat">Logo</span>
+            </div>
+            <ul class="footer-cat-links"><br><br>
+             <li><img class="cmcaimg" src="see.jpg" height="70px" width="70px" style="border-radius: 50%;"></li>
+            </ul>
+           </div> 
+        <div class="col-3">
+            <div class="link-cat" onclick="footerToggle(this)">
+                <span class="footer-toggle"></span>
+                <span class="footer-cat">Quick Links</span>
+            </div>
+            <ul class="footer-cat-links">
+                <li><a href="index.html"><span>Home</span></a></li>
+                <li><a href="about.html"><span>About</span></a></li>
+                <li><a href=""><span>Message</span></a></li>
+                <li><a href="event.html"><span>Event</span></a></li>
+                <li><a href="contact.html"><span>Contact</span></a></li>
+            </ul>
+        </div>
+        <div class="col-3" id="newsletter">
+            <span>Stay Connected</span>
+            <form id="subscribe">
+                <input type="email" id="subscriber-email" placeholder="Enter Email Address"/>
+                <input type="button" value="Subscribe" id="btn-scribe"/>
+            </form>
+            
+            <div class="social-links social-2">
+                <a href=""><i class="fa fa-facebook-f"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-whatsapp"></i></a>
+                <a href=""><i class="fa fa-instagram"></i></a>
+                <a href=""><i class="fa fa-envelope"></i></a>
+               
+            </div>
+
+            <div id="address">
+                <span>Church Location</span>
+                <ul>
+                    <li><br>
+                        <i class="fa fa-building"></i>
+                        <div>Ibadan<br/>
+                         Zone A House 6, 2nd Transformer Aba-nla Ologuneru, Ibadan</div>
+                    </li>
+                    <li>
+                        <i class="fa fa-home"></i>
+                        <div>Lagos<br/>
+                        Office 150B, Behind Sana Gate Char Bhuja Tower, Station Road,Lagos</div>
+                       </li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="social-links social-1 col-6">
+         <a href=""><i class="fa fa-facebook-f"></i></a>
+         <a href=""><i class="fa fa-twitter"></i></a>
+         <a href=""><i class="fa fa-whatsapp"></i></a>
+         <a href=""><i class="fa fa-instagram"></i></a>
+         <a href=""><i class="fa fa-envelope"></i></a>
         
-    </div>
-    <div style="position: relative;" >
-      <a href="#top">
-      <i class="fa fa-arrow-up top" style="font-size: 15px; display: flex; justify-content: center; align-items: center; "></i></a>
-    </div>
-  </footer>
-    <script src="script.js"></script>
+        </div>
+       </div>
+   <div id="copyright">
+       &copy; All Rights Reserved 2019-2020
+   </div>
+  
+</footer>
+<script>
+  
+  
+  function footerToggle(footerBtn) {
+$(footerBtn).toggleClass("btnActive");
+$(footerBtn).next().toggleClass("active");
+}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="StyleiTechFooter.js"></script>
+  
+<script src="script.js"></script>
+<script src="nav.js"></script>
 </body>
 </html>
