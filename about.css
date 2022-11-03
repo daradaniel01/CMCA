@@ -693,6 +693,25 @@ font-weight: bold;
 .history{
     text-align: left; font-size: 20px;
 }
+@media only screen and (max-width:285px){
+  input#subscriber-email {
+    outline: none;
+    padding: 6px; 
+    background: #212121;
+    border: 1px solid #cecece;
+    color: #cecece;
+    border-radius: 4px 0px 0px 4px;
+}
+.col-3#newsletter #btn-scribe {
+  margin-left: -4px;
+  border: 1px solid #cecece;
+  border-radius: 0px 4px 4px 0;
+  padding: 6px 3px;
+  background-color: #e2e2e2;
+  color: #212121;
+  cursor: pointer;
+}
+}
 
 @media only screen and (max-width:500px){
   .btton{
