@@ -10,12 +10,59 @@
     width: 100%;
     background-position: center;
   }
+  .pagebox{
+    display: flex;
+    color: white;
+    background-color: #0b69d4;
+    float: right;
+    width: 50%;
+    padding: 20px 20px 20px 50px;
+    border-radius: 30px 0px 0px 30px;
+    margin-top: -120px;
+    z-index: -2;
+    
+  }
+  #abo{
+    margin: -30px -20px -24px -90px  !important;
+    border-radius: 30px 0px 0px 30px;
+   
+  }
+  
+  
+  .list{
+    margin-left: 0px;
+    margin-top: 0px;
+  background-color:rgb(19, 72, 151);
+  color:white ;
+  
+  font-weight: 600;
+  border-radius: 20px 0px 20px 0px;
+  padding: 13px;
+  font-size: 17px;
+  border: none;
+  width: 140px;
+  
+  
+  
+  cursor: pointer;
+  }
+  .list:hover{
+  background-color: rgb(8, 44, 99);
+  color: white;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, .5), 10px -10px 20px rgba(255, 255, 255, .1),
+      inset 10px 10px 10px 20px rgba(0, 0, 0, .5), inset -10px 10px 20px rgba(255, 255, 255, .1);
+     
+  }
+  
   #about{
     margin: 22px -40px -20px -40px  !important;
     border-radius: 30px;
     padding-bottom: -10px;
      
    }
+   .come{
+    padding-top: 220px;
+  }
   #abou{
     margin: -20px -40px -20px -40px  !important;
     border-radius: 30px;
@@ -758,6 +805,61 @@ font-weight: bold;
 } */
 
 @media only screen and (max-width:500px){
+  #abo{
+    margin: -20px -10px -19px -20px  !important;
+    border-radius: 30px 0px 0px 30px;
+   
+  }
+  .tune{
+    font-size: .9em;
+  }
+  .goa{
+    font-size: 11px;
+    text-align: left;
+  }
+  .pagebox{
+   
+    color: white;
+    background-color: #0b69d4;
+    float: right;
+    width: 70%;
+    padding: 20px 10px 15px 20px;
+    border-radius: 30px 0px 0px 30px;
+    margin-top: -100px;
+    z-index: -2;
+    
+  }
+  
+  .list{
+    margin-left: 0px;
+    margin-top: 0px;
+  background-color:rgb(19, 72, 151);
+  color:white ;
+  
+  font-weight: 600;
+  border-radius: 20px 0px 20px 0px;
+  padding: 13px;
+  font-size: 17px;
+  border: none;
+  width: 140px;
+  margin-bottom: 5px;
+  
+  
+  cursor: pointer;
+  }
+  .list:hover{
+ 
+  color: white;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, .5), 10px -10px 20px rgba(255, 255, 255, .1),
+      inset 10px 10px 10px 20px rgba(0, 0, 0, .5), inset -10px 10px 20px rgba(255, 255, 255, .1);
+     
+  }
+  .tune{
+    font-size: .9em;
+  }
+  .come{
+    padding-top: 147px;
+  }
   #about{
     margin: -22px -40px -20px -40px  !important;
     border-radius: 30px;
@@ -1611,7 +1713,5 @@ font-weight: bold;
     width: 100px;
     padding: 0px !important;
   }
-  .goa{
-    font-size: 11px;
-    text-align: left;
-  }
+ 
+  
