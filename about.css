@@ -9,12 +9,55 @@
     height: 700px;
     width: 100%;
     background-position: center;
+  }
+  #about{
+    margin: 22px -40px -20px -40px  !important;
+    border-radius: 30px;
+    padding-bottom: -10px;
+     
+   }
+  #abou{
+    margin: -20px -40px -20px -40px  !important;
+    border-radius: 30px;
+    padding-bottom: -10px;
+     
+   }
+    .brief{
+      margin-top: 50px;
+      margin-bottom: 30px;
+      display: flex;
+      gap: 130px;
+      justify-content:center ;
+      flex-wrap: wrap;
+    }
+    .breef{
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      -webkit-transform: scale(1.25, 1.25);
+      transform: scale(1.25, 1.25);
+      background-color: #0b337e;
+      height: 400px;
+      width: 400px;
+      border-radius: 30px;
+     text-align: center;
+     color: #fff;
+      padding: 40px; 
+    }
     
-    
-   
+    .bref{
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      -webkit-transform: scale(1.25, 1.25);
+      transform: scale(1.25, 1.25);
+      background-color: #0b337e;
+      height: 400px;
+      width: 400px;
+      border-radius: 30px;
+     text-align: center;
+     color: #fff;
+      padding: 40px; 
+    }
     
 
-}
+
 .text-box{
     position: relative;
     top: 50%;
@@ -578,7 +621,7 @@ padding-top: 150px;
 color: #0b337e;
 }
 .evenpic{
-background-image:linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("praise.jpeg");
+background-image:linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("pexels-srattha-nualsate-13005109.jpg");
 background-color: #083fa5;
 background-repeat: no-repeat;
 background-size: cover;
@@ -715,6 +758,48 @@ font-weight: bold;
 } */
 
 @media only screen and (max-width:500px){
+  #about{
+    margin: -22px -40px -20px -40px  !important;
+    border-radius: 30px;
+    padding-bottom: -10px;
+     
+   }
+  #abou{
+    margin: 1px -40px -20px -40px  !important;
+    border-radius: 30px;
+    padding-bottom: -10px;
+     
+   }
+  .brief{
+    display: flex;
+    gap: 150px;
+    justify-content:center ;
+    flex-wrap: wrap;
+  }
+  .breef{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    -webkit-transform: scale(1.25, 1.25);
+    transform: scale(1.25, 1.25);
+    background-color: #0b337e;
+    height: 400px;
+    width: 260px;
+    border-radius: 30px;
+   text-align: center;
+   color: #fff;
+   padding: 40px;
+  }
+  .bref{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    -webkit-transform: scale(1.25, 1.25);
+    transform: scale(1.25, 1.25);
+    background-color: #0b337e;
+    height: 530px;
+    width: 260px;
+    border-radius: 30px;
+   text-align: center;
+   color: #fff;
+   padding: 40px;
+  }
   .btton{
     margin-left: 0px;
     margin-top: 0px;
@@ -828,7 +913,7 @@ font-weight: bold;
       0px 18px 23px rgba(0, 0, 0, 0.295);
       }
     .evenpic{
-      background-image:linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("praise.jpeg");
+      background-image:linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("pexels-srattha-nualsate-13005109.jpg");
       background-color: #083fa5;
       background-repeat: no-repeat;
       background-size: cover;
@@ -1286,6 +1371,7 @@ font-weight: bold;
       }
     }
     @media screen and (max-width: 500px) {
+     
       .card {
         width: 100%;
       }
@@ -1519,8 +1605,13 @@ font-weight: bold;
     -webkit-transform: scale(1.25, 1.25);
     transform: scale(1.25, 1.25);
   }
-  .breef{
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    -webkit-transform: scale(1.25, 1.25);
-    transform: scale(1.25, 1.25);
+  
+  .svvg{
+    
+    width: 100px;
+    padding: 0px !important;
+  }
+  .goa{
+    font-size: 11px;
+    text-align: left;
   }

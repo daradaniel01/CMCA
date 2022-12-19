@@ -1,6 +1,6 @@
 // Declare the current date and future date
 const countdown = () => {
-    const newYear = new Date('december 25 2022');
+    const newYear = new Date('december 25, 2022');
     const currentYear = new Date();
     const timer = newYear - currentYear;
   
