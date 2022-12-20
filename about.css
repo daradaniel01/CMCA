@@ -10,6 +10,15 @@
     width: 100%;
     background-position: center;
   }
+  .repo{
+    font-size: 40px;
+  }
+  .repo1{
+    font-size: 25px;
+  }
+  .repo2{
+    font-size: 25px;
+  }
   .pagebox{
     display: flex;
     color: white;
@@ -21,6 +30,9 @@
     margin-top: -120px;
     z-index: -2;
     
+  }
+  .goa{
+    font-size: 11px;
   }
   #abo{
     margin: -30px -20px -24px -90px  !important;
