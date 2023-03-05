@@ -781,8 +781,11 @@ font-style: italic;
 padding-left: 20px;
 font-weight: bold;
 }
-.firstxt{
-    padding-left: 105px;
+
+.coter{
+  height: 30px;
+  padding-left: 10%;
+  padding-top: 5%;
 }
 .history{
     text-align: left; font-size: 20px;
@@ -1085,10 +1088,9 @@ font-weight: bold;
               
               
             
-    .firstxt{
-        
-        
-        padding-top: 50px;
+    .coter{
+       padding-top: 80px; 
+       padding-left: 40px;
     }
     .obj{
         font-size: .5em;

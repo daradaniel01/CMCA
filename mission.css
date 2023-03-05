@@ -144,11 +144,14 @@
     }
     .mish:hover{
         margin-top: -5px;
+        transition: 0.5s ease;
     }
     .mish1:hover{
         margin-top: -5px;
+        transition: 0.5s ease;
     }
     .mish2:hover{
         margin-top: -5px;
+        transition: 0.5s ease;
     }
 }
