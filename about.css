@@ -1505,6 +1505,7 @@ font-weight: bold;
       align-items: center;
       position: absolute;
       height: 100%;
+      border-radius: 50px;
       width: 100%;
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
@@ -1518,6 +1519,7 @@ font-weight: bold;
       font-size: 1.618rem;
       font-weight: 600;
       color: #fff;
+      border-radius: 50px;
       overflow: hidden;
       font-family: Poppins, sans-serif;
     }
