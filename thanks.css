@@ -79,7 +79,7 @@ h4{
 .thanks{
     display: grid;
     place-items: center;
-    margin-top: 80%;
+    margin-top: 50%;
     width: 100%;
     height: 100%;
     padding: 20px;
