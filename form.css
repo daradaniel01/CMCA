@@ -37,19 +37,64 @@ textarea {
   width: 100%;
   font-size: 1.2rem;
   line-height: 1.4;
+  border-radius: 8px;
+
   
 }
+.mem{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+.mail{
+  padding: 14px 16px 14px 16px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(7, 55, 143);
+}
+.mail:hover{
+  background-color:rgb(233, 237, 243) ;
+  color:rgb(7, 55, 143) ;
+}
+.chat{
+  padding: 14px 16px 14px 16px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(7, 55, 143);
+}
+.chat:hover{
+  background-color:rgb(7, 55, 143) ;
+  color: rgb(233, 237, 243);
+}
+input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: gray;
+  }
+  
+  input:focus {
+  color: rgb(56, 56, 56);
+  }
 label {
   margin-bottom: 3px;
 }
 input,
 textarea {
-  padding: 3px;
-  
+  padding: 5px 5px 5px 10px;
+  border: none;
+  background-color: transparent;
+  outline: none;
   background-color: #ccc;
 }
 input[type="submit"] {
-  
+  background-color: rgb(0, 22, 68);
   padding: 7px;
   border: 0;
   color: snow;
@@ -57,11 +102,11 @@ input[type="submit"] {
   text-transform: uppercase;
 }
 input[type="submit"]:hover {
- 
-  animation-duration: 0.7s;
+  animation: submit-hover;
+  animation-duration: 3.7s;
 }
 input[type="submit"]:active {
-  
+  animation: submit-active;
   animation-duration: 0.3s;
 }
 @keyframes submit-hover {
@@ -82,4 +127,9 @@ input[type="submit"]:active {
   100% {
     transform: scale(0.98);
   }
+}
+@media only screen and (max-width:798px){
+   .mem{
+    gap: 15px;
+   }
 }
